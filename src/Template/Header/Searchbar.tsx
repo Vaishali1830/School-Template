@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { AiOutlineSearch, AiOutlineClose } from "react-icons/ai";
 
 const SearchBar = () => {

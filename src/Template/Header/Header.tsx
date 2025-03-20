@@ -6,7 +6,7 @@ import Anchor from "./Anchor";
 import Searchbar from "./Searchbar";
 import Accordion from "./Accordion";
 import logo from '../../assets/logo.webp'
-import { href, Link } from "react-router-dom";
+import {Link } from "react-router-dom";
 
 const Header = () => {
 
@@ -16,6 +16,7 @@ const Header = () => {
   const handleChange = (value: string)=>{
     setSelectedValue(value)
   }
+  console.log("selected value" , selectedValue)
 
   const accordionItems = [
     {

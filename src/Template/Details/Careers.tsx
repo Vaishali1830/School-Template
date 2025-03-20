@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Careers = () => {
   return (
     <div className='mt-12 flex flex-col ml-20'>

@@ -1,4 +1,3 @@
-import Header from "./Header/Header";
 import ImageCarousel from "./Main/ImageCarausel";
 import Cards from "./Main/Cards";
 import Layout from "./Sections/Layout";

@@ -1,5 +1,4 @@
 import React from "react";
-import { FiUpload } from "react-icons/fi";
 
 interface InputfieldProps {
   label: string;
