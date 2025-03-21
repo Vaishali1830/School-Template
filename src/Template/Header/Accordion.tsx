@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { FaChevronDown } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 interface AccordionItem {
   title: string;
@@ -42,7 +43,7 @@ const Accordion: React.FC<AccordionProps> = ({ items }) => {
               <ul className="px-6 py-2 space-y-2">
                 {item.items.map((subItem, i) => (
                   <li key={i} className="text-sm cursor-pointer anchor-text">
-                    {subItem}
+                    <Link to="careers">{subItem}</Link>
                   </li>
                 ))}
               </ul>

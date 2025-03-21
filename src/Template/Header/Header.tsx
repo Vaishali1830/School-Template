@@ -3,7 +3,7 @@ import { FiMenu } from "react-icons/fi";
 import DropList from "./Droplist";
 import { useState } from "react";
 import Anchor from "./Anchor";
-import Searchbar from "./Searchbar";
+// import Searchbar from "./Searchbar";
 import Accordion from "./Accordion";
 import logo from '../../assets/logo.webp'
 import {Link } from "react-router-dom";
@@ -63,14 +63,14 @@ const Header = () => {
         </div>
 
         <div className="md:hidden flex gap-6">
-          <Searchbar />
+          {/* <Searchbar /> */}
           <button onClick={() => setIsMenuOpen(!isMenuOpen)}>
             <FiMenu size={24} color="indigo" />
           </button>
         </div>
 
         <div className="hidden md:flex gap-6">
-          <Searchbar/>
+          {/* <Searchbar/> */}
           <DropList options={["How to give", "Volunteers", "Careers"]} onChange={handleChange} placeholder="Get Involved" />
           <DropList options={["Trauma Informed Early Education", "Enrollment", "Events", "Media"]} onChange={handleChange} placeholder="Programming" />
           <DropList options={["Mission", "History", "20 Stories of Hope", "Meet Our Team", "Board of Directors"]} onChange={handleChange} placeholder="About Us" />
